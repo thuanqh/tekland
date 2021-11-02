@@ -1,0 +1,259 @@
+/*
+ * Pages
+ */
+
+.pages {
+    position: relative;
+}
+
+.pages-header h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #f47823;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.pages-header h2 span {
+    display: block;
+}
+
+.pages-content {
+    color: #333;
+    line-height: 1.875;
+    text-align: justify;
+}
+
+.pages-list {
+    margin-top: 20px;
+}
+
+.pages-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pages-list ul li {
+    display: block;
+    position: relative;
+    padding: 5px 0 5px 15px;
+}
+
+.pages-list ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.pages-section:not(:last-child) {
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.pages-section-header h3 {
+    color: #131418;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.pages-section-note {
+    color: #666;
+}
+
+.pages-section-normal:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.pages-section-content p span {
+    display: block;
+}
+
+.pages-section-content-node {
+    color: #f47823;
+    margin-bottom: 5px;
+}
+
+.pages-contact-title {
+    color: #f47823;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pages-contact-address {
+    margin-top: 10px;
+}
+
+.pages-contact-address a {
+    color: #333;
+}
+
+#gmap_canvas {
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 767px) {
+    .pages {
+        padding: 20px 0;
+    }
+
+    .pages-header h2 {
+        font-size: 20px;
+    }
+
+    .pages-content {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .pages-section-header h3 {
+        font-size: 20px;
+    }
+
+    .pages-section-note {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .pages-section-content {
+        margin-top: 10px;
+    }
+
+    .pages-section:not(:last-child) {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .pages-section-content-node {
+        font-size: 16px;
+    }
+
+    .pages-contact {
+        margin-top: 25px;
+    }
+
+    .pages-submit form {
+        margin-top: 15px;
+    }
+
+    .pages-contact-address span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .pages-contact-maps #gmap_canvas {
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .pages {
+        padding: 40px 0;
+    }
+
+    .pages-header h2 {
+        font-size: 30px;
+    }
+
+    .pages-content {
+        margin-top: 30px;
+    }
+
+    .pages-section-header h3 {
+        font-size: 24px;
+    }
+
+    .pages-section-note {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .pages-section-content {
+        margin-top: 20px;
+    }
+
+    .pages-section:not(:last-child) {
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px #e5e5e5 solid;
+    }
+
+    .pages-section-content-node {
+        font-size: 18px;
+    }
+
+    .pages-contact {
+        margin-top: 30px;
+    }
+
+    .pages-submit form {
+        margin-top: 20px;
+    }
+
+    .pages-contact-address span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .pages-contact-maps #gmap_canvas {
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pages {
+        padding: 65px 0;
+    }
+
+    .pages-header h2 {
+        font-size: 35px;
+    }
+
+    .pages-content {
+        margin-top: 34px;
+    }
+
+    .pages-section-header h3 {
+        font-size: 32px;
+    }
+
+    .pages-section-note {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .pages-section:not(:last-child) {
+        margin-bottom: 36px;
+        padding-bottom: 36px;
+        border-bottom: 1px #e5e5e5 solid;
+    }
+
+    .pages-section-content {
+        margin-top: 20px;
+    }
+
+    .pages-section-content-node {
+        font-size: 20px;
+    }
+
+    .pages-contact {
+        padding: 0 50px;
+    }
+
+    .pages-submit form {
+        margin-top: 30px;
+    }
+
+    .pages-contact-maps #gmap_canvas {
+        height: 260px;
+    }
+}
